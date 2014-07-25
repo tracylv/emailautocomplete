@@ -1,0 +1,64 @@
+
+body
+{
+    margin-top: 50px;
+	margin-left: 50px;
+}
+
+.autocompletecon
+{
+	width: 300px;
+    margin: 0;
+	font-family: Arial, ¡°Helvetica Neue¡±, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	position: relative;
+}
+
+.autocompletecon .emailautocomplete
+{
+    border: 1px solid #000;
+	margin: 0;
+	padding: 6px 10px;
+	font: inherit;
+	display: inline-block;
+	width: 278px;
+	height: 18px;
+	box-shadow: none;
+	border-radius: 0;
+	outline: none;
+}
+
+.autocompletecon .autocomplete
+{
+    display: block;
+    position: absolute;
+    top: 32px;
+	*top: 33px;
+    left: 0;
+    list-style: none;
+    z-index: 50;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+	overflow: hidden;
+	width: 298px;
+}
+
+.autocompletecon .autocomplete li
+{
+    display: block;
+    text-align: left;
+    color: #000;
+    padding-left: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.autocompletecon .autocomplete li.selected
+{
+    background-color: #ebebeb;
+}
