@@ -1,9 +1,6 @@
 # email autocomplete
-=================
-
 This is a jquery plugin for email input autocomplete. 
 you can select the autocomplete emails by Up/Down key press or mouse click 
-
 #### demo
 demoscreenshot.jpg
 #### parameters:
