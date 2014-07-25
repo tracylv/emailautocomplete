@@ -2,8 +2,7 @@
 This is a jquery plugin for email input autocomplete. 
 you can select the autocomplete emails by Up/Down key press or mouse click 
 #### demo
-demoscreenshot.jpg
-![email autocomplete](/demoscreenshot.jpg "title")
+![email autocomplete][1]
 #### parameters:
 ```
 var defaults =
@@ -36,7 +35,7 @@ var defaults =
   });
 </script>
 ```
-5.you can override the parameters like below
+4.you can override the parameters like below
 ```
 $(".emailautocomplete").emailautocomplete({ domains: ["qq.com", "163.com", "gmail.com", "126.com", "sina.com"]});
 ```
@@ -45,5 +44,5 @@ $(".emailautocomplete").emailautocomplete({ domains: ["qq.com", "163.com", "gmai
 1. copy the css and js code of this plugin into your own css and js file, because of this plugin's code is very little and it's not deserved to be loaded as a single file, it will increase the page load time in a way.
 2. adjust the css of this plugin according to your personal need.
 ```
-
+[1]:https://github.com/tracylv/emailautocomplete/blob/master/demosreenshot.jpg
 
