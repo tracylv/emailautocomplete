@@ -2,17 +2,19 @@
 =================
 
 This is a jquery plugin for email input autocomplete. 
-you can select the auto complete emails by Up/Down key press or mouse click 
+you can select the autocomplete emails by Up/Down key press or mouse click 
 
 #### demo
 demoscreenshot.jpg
 #### parameters:
 ```
 var defaults =
-{
+   {
+        // all included auto completed email domins 
+      domains: ["qq.com", "163.com", "gmail.com", "126.com", "sina.com", "139.com", "hotmail.com", "outlook.com", "sohu.com", "128.com", "136.com", "live.com"]
+   };
 
-};
-1. domains: the email domains array, there domains will be used as email auto complete.
+1. domains: the email domains array, these domains will be used as email auto complete.
 ```
 #### usage:
 1.include all the resources of emailautocomplete in your page (need jquery)
@@ -31,18 +33,18 @@ var defaults =
 3.bind the behavior of the email autocomplete
 ```
 <script type="text/javascript">
-    $(function(){
-	    $(".emailautocomplete").emailautocomplete();
-    });
+  $(function(){
+      $(".emailautocomplete").emailautocomplete();
+  });
 </script>
 ```
 5.you can override the parameters like below
 ```
-$(".emailautocomplete").emailautocomplete({ domains: []});
+$(".emailautocomplete").emailautocomplete({ domains: ["qq.com", "163.com", "gmail.com", "126.com", "sina.com"]});
 ```
 #### suggestion:
 ```
-1. copy the css and js code of this plugin code into your own css and js file, because of this plugin's code is very little and it's not deserved to be loaded as a single file, it will increase the page load time in a way.
+1. copy the css and js code of this plugin into your own css and js file, because of this plugin's code is very little and it's not deserved to be loaded as a single file, it will increase the page load time in a way.
 2. adjust the css of this plugin according to your personal need.
 ```
 
