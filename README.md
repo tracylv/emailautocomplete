@@ -1,4 +1,4 @@
-# emailautocomplete
+# email autocomplete
 =================
 
 This is a jquery plugin for email input autocomplete. 
@@ -24,14 +24,16 @@ var defaults =
 ```
 2.add the below dom into your page.
 ```
-
+<div class="autocompletecon">
+    <input id="emailautocomplete"  class="emailautocomplete" name="email" type="email" maxlength="50" autocomplete="off" />
+</div>
 ```
-3.bind the behavior of the slideshow
+3.bind the behavior of the email autocomplete
 ```
 <script type="text/javascript">
     $(function(){
 	    $(".emailautocomplete").emailautocomplete();
-	});
+    });
 </script>
 ```
 5.you can override the parameters like below
