@@ -2,7 +2,7 @@
 This is a jquery plugin for email input autocomplete. 
 you can select the autocomplete emails by Up/Down key press or mouse click 
 #### demo
-http://gh.tracylv.com/emailautocomplete/demo.htm         
+http://emailac.tracylv.com/demo.htm               
 ![email autocomplete][1]
 #### parameters:
 ```
